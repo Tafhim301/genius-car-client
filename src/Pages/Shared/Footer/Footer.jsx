@@ -1,8 +1,8 @@
 import logo from '../../../assets/logo.svg'
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-base-200 text-base-content">
-           <img src={logo} alt="" />
+        <footer className="footer p-10 bg-neutral text-neutral-content">
+           <img className='bg-white p-2 rounded-xl' src={logo} alt="" />
             <nav>
                 <h6 className="footer-title">Services</h6>
                 <a className="link link-hover">Branding</a>
